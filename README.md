@@ -1,14 +1,36 @@
 # MEMS-FPGA-accelerometer
 
-Self-oscillating MEMS accelerometer based on a FPGA device
+Self-oscillating MEMS accelerometer controlled by an FPGA device.
+
+| Operation principle |
+|------------|
+| <img src="/images/Fig1.png" width="250"> |
+
+The device operates in a self-oscillating mode. This means that the sensitive element (inertial mass) oscillates along its promary axis. Oscillations are supported and controlled by the power drive coils. Also, several inertial mass positions trigger an optocoupler connected to the feedback loop. Acceleration can be measured by measuring the feedback signal. The information is encoded in its duty cycle and frequency.
+
+| Variant with a laser position sensor |
+|------------|
+| <img src="/images/Fig3.png" width="250"> |
+
+| Test control boards and the sensor |
+|------------|
+| <img src="/images/Fig4.jpg" width="250"> |
 
 ## FPGA_control
 
 A control program for the accelerometer (FPGA Altera Cyclone III, Verilog, VHDL).
 
+| FPGA configuration in Quartus |
+|------------|
+| <img src="/images/FPGA_configuration.png" width="250"> |
+
 ## images
 
 The images of the prototype.
+
+| The prototype |
+|------------|
+| <img src="/images/Fig2.png" width="500"> |
 
 ## MCU_converter
 
@@ -18,6 +40,10 @@ Firmware for the remote sensor control (STM32, C).
 ## Terminal_app
 
 Application for the remote sensor control (Qt, C++).
+
+| The control application |
+|------------|
+| <img src="/images/FigX.png" width="500"> |
 
 ## MATLAB_simulation
 
@@ -34,6 +60,8 @@ MATLAB_simulation/scripts/
 ├── frequency_response/
 │   ├── frequency_response_simulation_damping.m
 │   └── frequency_response_analitical.m
+├── range_and_error/
+│   └── range_and_error_calculation.m
 └── calculate_parameters_for_prototype.m
 ```
 
