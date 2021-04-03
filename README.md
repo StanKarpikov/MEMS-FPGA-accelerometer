@@ -33,6 +33,7 @@ The images of the prototype.
 |------------|
 | <img src="/images/Fig4.jpg" width="250"> |
 
+
 ## MCU_converter
 
 Firmware for the remote sensor control (STM32, C).
@@ -141,6 +142,10 @@ Calculates the range and error for the sensor
 Simulates the sensor operation and applies external acceleration. Linear acceleration is applied ni this example.
 
 - `sensor_simulation.slx`
+
+| The effect of the variable frequency acceleration |
+|------------|
+| <img src="/images/fig1_effect.png" width="500"> |
 
 | Model overview | Simulation results |
 |------------|-------------|

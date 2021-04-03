@@ -46,3 +46,5 @@ build-*
 *.asv
 MATLAB_simulation/Noise
 MATLAB_simulation/archive
+MCU_converter/EWARM/2 THUMB Debug
+*.log
