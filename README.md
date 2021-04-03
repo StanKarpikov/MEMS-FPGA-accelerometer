@@ -8,13 +8,6 @@ Self-oscillating MEMS accelerometer controlled by an FPGA device.
 
 The device operates in a self-oscillating mode. This means that the sensitive element (inertial mass) oscillates along its promary axis. Oscillations are supported and controlled by the power drive coils. Also, several inertial mass positions trigger an optocoupler connected to the feedback loop. Acceleration can be measured by measuring the feedback signal. The information is encoded in its duty cycle and frequency.
 
-| Variant with a laser position sensor |
-|------------|
-| <img src="/images/Fig3.png" width="250"> |
-
-| Test control boards and the sensor |
-|------------|
-| <img src="/images/Fig4.jpg" width="250"> |
 
 ## FPGA_control
 
@@ -30,7 +23,15 @@ The images of the prototype.
 
 | The prototype |
 |------------|
-| <img src="/images/Fig2.png" width="500"> |
+| <img src="/images/Fig2.jpg" width="500"> |
+
+| Variant with a laser position sensor |
+|------------|
+| <img src="/images/Fig3.png" width="250"> |
+
+| Test control boards and the sensor |
+|------------|
+| <img src="/images/Fig4.jpg" width="250"> |
 
 ## MCU_converter
 
