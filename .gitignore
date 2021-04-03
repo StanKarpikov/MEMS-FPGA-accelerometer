@@ -44,3 +44,4 @@ _output_files/
 build-*
 *.user
 *.asv
+MATLAB_simulation/Noise

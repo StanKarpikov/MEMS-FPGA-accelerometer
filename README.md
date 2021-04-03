@@ -4,7 +4,7 @@ Self-oscillating MEMS accelerometer based on a FPGA device
 
 ## FPGA_control
 
-A control program for the accelerometer (FPGA Altera Cyclone III, Verilog).
+A control program for the accelerometer (FPGA Altera Cyclone III, Verilog, VHDL).
 
 ## images
 
@@ -53,3 +53,12 @@ Returns the precise timer value for zero-line intersection
     
 - `nl_system_for_t.m` 
 Supplementary function for non-linear solver (timer value for zero-line intersection)
+
+### Noise experiment results
+
+| Spectrum of the current      |
+|------------|
+| <img src="/MATLAB_simulation/scripts/noise_experiment/Results.png" width="250"> |
+
+- `noise_experiment_results.m`
+Shows the results of the experimental noise measurement
