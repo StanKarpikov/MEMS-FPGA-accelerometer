@@ -74,7 +74,7 @@ Shows the results of the experimental noise measurement
 |------------|-------------|
 | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_tau.png" width="250"> | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_acceleration.png" width="250"> |
 
-| Frequency responce of the inertial mass (different damping)     | Frequency responce of the output acceleration (different damping)      |
+| Frequency responce of the inertial mass (different damping)     | Frequency responce of the output acceleration (different damping) |
 |------------|-------------|
 | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_tau_damping.png" width="250"> | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_acceleration_damping.png" width="250"> |
 
@@ -82,16 +82,25 @@ Shows the results of the experimental noise measurement
 Runs the frquency responce simulation of the sensor with the selected damping
 
 
-| Analitical calculation of the frequency response     |
+| Analitical calculation of the frequency response |
 |------------|
 | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_analitical.png" width="250"> |
 
 - `frequency_response_analitical.m`
 Runs the frquency responce calculation of the sensor using three aproaches
 
+### Nonlinearity estimate
+
+| Nonlinearity estimate |
+|------------|
+| <img src="/MATLAB_simulation/scripts/nonlinearity_estimate/nonlinearity_estimate.png" width="250"> |
+
+- `nonlinearity_estimate.m`
+Calculates and compares the nonlinearity for different settings
+
 ## Simulink model
 
-Simulates the sensor operation and applies external acceleration.
+Simulates the sensor operation and applies external acceleration. Linear acceleration is applied ni this example.
 
 - `sensor_simulation.slx`
 
