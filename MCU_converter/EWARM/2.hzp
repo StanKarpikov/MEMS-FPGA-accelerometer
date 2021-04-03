@@ -1,6 +1,6 @@
 <!DOCTYPE CrossStudio_Project_File>
-<solution Name="2" target="8" version="2">
-  <project Name="2">
+<solution Name="sensor_control_irmware" target="8" version="2">
+  <project Name="sensor_control_firmware">
     <configuration
       CMSIS_CORE="Yes"
       Name="Common"

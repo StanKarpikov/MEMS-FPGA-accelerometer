@@ -64,6 +64,8 @@ MATLAB_simulation/scripts/
 │   └── frequency_response_analitical.m
 ├── range_and_error/
 │   └── range_and_error_calculation.m
+├── statistic_error/
+│   └── calcuate_measurement_statistic_error.m
 └── calculate_parameters_for_prototype.m
 ```
 
@@ -136,6 +138,16 @@ Calculates and compares the nonlinearity for different settings
 
 - `range_and_error_calculation.m'
 Calculates the range and error for the sensor
+
+### Statistic error
+
+| Error distribution |
+|------------|
+| <img src="/MATLAB_simulation/scripts/statistic_error/statistic_error.png" width="250"> |
+
+- `calcuate_measurement_statistic_error.m'
+Calculates the distribution of the sensor measurement error
+
 
 ## Simulink model
 

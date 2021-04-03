@@ -11,12 +11,11 @@
  <Memory3/>
  <Memory4/>
  <Project>
-  <ProjectSessionItem path="2"/>
-  <ProjectSessionItem path="2;2"/>
-  <ProjectSessionItem path="2;2;Application"/>
-  <ProjectSessionItem path="2;2;Application;User"/>
-  <ProjectSessionItem path="2;2;Drivers"/>
-  <ProjectSessionItem path="2;2;Drivers;STM32F4xx_HAL_Driver"/>
+  <ProjectSessionItem path="sensor_control_irmware"/>
+  <ProjectSessionItem path="sensor_control_irmware;sensor_control_firmware"/>
+  <ProjectSessionItem path="sensor_control_irmware;sensor_control_firmware;Application"/>
+  <ProjectSessionItem path="sensor_control_irmware;sensor_control_firmware;Application;User"/>
+  <ProjectSessionItem path="sensor_control_irmware;sensor_control_firmware;Drivers"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -42,8 +41,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="36" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" selected="1" top="18" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="34" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/stm32f4xx_hal_msp.c" selected="0" top="5" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="61" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" selected="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/stm32f4xx_hal_msp.c" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="15" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/stm32f4xx_it.c" selected="0" top="0" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="2" fileDialogDefaultFilter="*.c" autoConnectTarget="" buildConfiguration="THUMB Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="0"/>
 </session>
