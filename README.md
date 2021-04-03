@@ -98,6 +98,15 @@ Runs the frquency responce calculation of the sensor using three aproaches
 - `nonlinearity_estimate.m`
 Calculates and compares the nonlinearity for different settings
 
+### Range and error
+
+| Error of the sensor with the different models used | Ranges of the sensor with different models used |
+|------------|-------------|
+| <img src="/MATLAB_simulation/scripts/range_and_error/error.png" width="250"> | <img src="/MATLAB_simulation/scripts/range_and_error/range.png" width="250"> |
+
+- `range_and_error_calculation.m'
+Calculates the range and error for the sensor
+
 ## Simulink model
 
 Simulates the sensor operation and applies external acceleration. Linear acceleration is applied ni this example.
