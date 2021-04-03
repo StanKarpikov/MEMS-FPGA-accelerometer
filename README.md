@@ -88,3 +88,13 @@ Runs the frquency responce simulation of the sensor with the selected damping
 
 - `frequency_response_analitical.m`
 Runs the frquency responce calculation of the sensor using three aproaches
+
+## Simulink model
+
+Simulates the sensor operation and applies external acceleration.
+
+- `sensor_simulation.slx`
+
+| Model overview | Simulation results |
+|------------|-------------|
+| <img src="/MATLAB_simulation/Simulink model/model.PNG" width="250"> | <img src="/MATLAB_simulation/Simulink model/results.png" width="250"> |
