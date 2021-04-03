@@ -30,6 +30,11 @@ MATLAB_simulation/scripts/
 │   ├── compute_sensing_element_position.m
 │   └── compute_accurate_time.m
 │       └── nl_system_for_t.m
+├── noise_experiment/noise_experiment_results.m
+├── frequency_response/
+│   ├── frequency_response_simulation_damping.m
+│   └── frequency_response_analitical.m
+└── calculate_parameters_for_prototype.m
 ```
 
 Modules description:
@@ -75,3 +80,11 @@ Shows the results of the experimental noise measurement
 
 - `frequency_response_simulation_damping.m`
 Runs the frquency responce simulation of the sensor with the selected damping
+
+
+| Analitical calculation of the frequency response     |
+|------------|
+| <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_analitical.png" width="250"> |
+
+- `frequency_response_analitical.m`
+Runs the frquency responce calculation of the sensor using three aproaches
