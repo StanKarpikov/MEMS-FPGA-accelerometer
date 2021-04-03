@@ -62,3 +62,16 @@ Supplementary function for non-linear solver (timer value for zero-line intersec
 
 - `noise_experiment_results.m`
 Shows the results of the experimental noise measurement
+
+### Frequency responce
+
+| Frequency responce (raw data) of the inertial mass     | Frequency responce (raw data) of the output acceleration      |
+|------------|-------------|
+| <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_tau.png" width="250"> | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_acceleration.png" width="250"> |
+
+| Frequency responce of the inertial mass (different damping)     | Frequency responce of the output acceleration (different damping)      |
+|------------|-------------|
+| <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_tau_damping.png" width="250"> | <img src="/MATLAB_simulation/scripts/frequency_response/frequency_response_acceleration_damping.png" width="250"> |
+
+- `frequency_response_simulation_damping.m`
+Runs the frquency responce simulation of the sensor with the selected damping

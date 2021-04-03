@@ -45,3 +45,4 @@ build-*
 *.user
 *.asv
 MATLAB_simulation/Noise
+MATLAB_simulation/archive
